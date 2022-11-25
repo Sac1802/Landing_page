@@ -1,0 +1,635 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+*
+{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root
+{
+    /*color*/
+    --very_dark_blue:  hsl(243, 87%, 12%);
+    --Desaturated_Blue: hsl(238, 22%, 44%);
+    /*acent*/
+    --Bright_Blue: hsl(224, 93%, 58%);
+    --Moderate_Cyan: hsl(170, 45%, 43%);
+    /*Neutral*/
+    --Light_Grayish_Blue: hsl(240, 75%, 98%);
+    --Light_Gray: hsl(0, 0%, 75%);
+    /*font famili*/
+    --body: 'Open Sans', sans-serif;
+    --heading: 'Raleway', sans-serif;
+}
+
+body
+{
+    font-family: var(--body);
+    background-color: var(--Light_Grayish_Blue);
+}
+
+.nav
+{
+    width: 90%;
+    font-family: var(--heading);
+    display: flex;
+}
+
+.nav__figure
+{
+    width: 90px;
+}
+
+.nav__logo
+{
+    position: absolute;
+    width: 70%;
+    top: 20px;
+    width: 100px;
+    left: 10px;
+    margin-right: 15px;
+}
+
+.nav__content
+{
+    position: relative;
+    height: 20px;
+    top: 27px;
+    display: flex;
+}
+
+.nav__link
+{
+    font-size: 14px;
+    margin-right: 0;
+}
+
+.nav__cta
+{   
+    text-decoration: none;
+    color: var(--Desaturated_Blue);
+    display: inline-flex;
+    justify-items: end;
+}
+
+.section
+{
+    width: 90%;
+    color: var(--very_dark_blue);
+    
+}
+
+.paragraph__you
+{
+    width: 90%;
+    color: var(--very_dark_blue);
+}
+
+.section__picture
+{
+    width: 90%;
+}
+
+.section__img
+{
+    margin-top: 120px;
+    width: 90%;
+}
+
+.section__initial
+{
+    width: 90%;
+    text-align: center;
+    margin: 0 15px;
+}
+
+.section__title
+{
+    margin: 15px 0;
+    width: 96%;
+}
+
+.section__title1
+{
+    font-size: 20px; 
+}
+
+.section__paragraph
+{
+    display: inline-block;
+    margin: 20px 20px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.section__text
+{
+    
+    width: 100%;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.input
+{
+    
+    width: 90%;
+    font-family: var(--body);
+    
+}
+
+
+.input__email
+{
+    background-color: var(--Light_Grayish_Blue);
+}
+
+.input__enter
+{
+    display: block;
+    padding: 8px 40px;
+    border-radius: 5px;  
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border: solid 1px black;
+}
+
+.input__sudmit
+{
+    display: block;
+    padding: 8px 90px;
+    border-radius: 5px;
+    background-color: var(--Bright_Blue);
+    color: var(--Light_Grayish_Blue);
+    box-shadow: 3px 3px  3px 1px rgba(0, 0, 0, 0.322);
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.position__wabe
+{
+    width: 100%;
+}
+
+.wabe
+{
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    background-image: url(./images/bg-curve-mobile.svg);
+    left: 0;
+}
+
+
+.section__part2
+{
+    width: 100%;
+    margin-top: 65px;
+    text-align: center;
+    background-color: var(--Light_Gray);
+    
+}
+
+.section__img--cam
+{
+    margin-top: 30px;
+}
+
+.part2__title
+{
+    width: 90%;
+    color: var(--very_dark_blue);
+    margin-bottom: 15px;
+}
+
+.part2__title1
+{
+    font-size: 25px;
+}
+
+.part2__paragraph
+{
+    width: 90%;
+}
+
+.paragraph
+{
+    color: var(--Desaturated_Blue);
+    margin-bottom: 15px;
+}
+
+.paragraph--1
+{
+    margin-bottom: 20px;
+}
+
+.link__cta
+{
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.cta__seYou
+{
+    color: var(--Moderate_Cyan);
+    text-decoration: none;
+    border-bottom: var(--Moderate_Cyan) solid 2px;
+    font-family: var(--body);
+}
+
+.logo__link
+{
+    
+    display: inline-flex;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.section__testimonio
+{
+    width: 80%;
+    height: 180px;
+    border: 1px --Light_Gray solid;
+    background-color: var(--Light_Grayish_Blue);
+    border-radius: 5px;
+    text-align: left;
+    justify-content: center;
+    box-shadow: 5px 5px  3px 1px rgba(0, 0, 0, 0.322);
+}
+
+.content
+{
+    text-align: justify;
+    padding: 10px 0;
+}
+
+.paragraph__testimonio
+{
+    width: 80%;
+    font-size: 11px;
+}
+
+.imagen__cofun
+{
+    width: 70%;
+    display: inline-flex;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.imagen__cofundador
+{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.color
+{
+    width: 100%;
+    height: 60px;
+    background-color: var(--Light_Gray);
+}
+
+.nombre
+{
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+.acceso
+{
+    width: 100%;
+    background-color: var(--Desaturated_Blue);
+    text-align: center;
+    color: var(--Light_Grayish_Blue);
+    padding: 25px 0;
+}
+
+.text__acceso
+{
+    width: 70%;
+}
+
+.acceso__title
+{
+    font-size: 20px;
+}
+
+.acceso_paragraph
+{
+    margin: 15px 0;
+    font-size: 12px;
+}
+
+.input__acceso
+{
+    width: 70%;
+}
+
+.input__enter--cambio
+{
+    width: 100%;
+    padding: 7px 15px;
+}
+
+.input__sudmit--cambio
+{
+    width: 100%;
+    padding: 7px 20px;
+    font-family: var(--body);
+    font-weight: 400;
+}
+
+.footer
+{
+    background-color: var(--very_dark_blue);
+    color: var(--Light_Grayish_Blue);
+}
+
+.detalles
+{
+    width: 80%;
+}
+
+.footer__picturee
+{
+    width: 60px;
+}
+
+.footer__img
+{
+    margin-top: 50px;
+    text-align: left;
+}
+
+.footer__phone
+{
+    display: flex;
+    margin-bottom: 15px;
+    
+}
+
+.icon__phone
+{
+    margin-top: 20px;
+    width: 25px;
+    height: 25px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.number__phone
+{
+    margin: 20px 20px;
+}
+
+
+.footer__email
+{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.icon__email
+{
+    margin: 0;
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+
+.gmail
+{
+    margin: 0 20px;
+}
+
+
+.experiences
+{
+    display: grid;
+    gap: 10px;
+    justify-content: left;
+    margin-bottom: 20px;
+}
+
+.list__expe
+{
+    margin: 0;
+}
+
+
+.terms
+{
+    display: grid;
+    gap: 10px;
+    justify-content: left;
+    margin-bottom: 40px;
+}
+
+.redes
+{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.icon__redes
+{
+    width: 25px;
+}
+
+.border
+{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    border: solid #fff 1px;
+    border-radius: 50%;
+    margin: 0 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(min-width: 650px)
+{
+    .nav__content
+    {
+        width: 70%;
+    }
+
+    .nav__link
+    {
+        font-size: 20px; 
+        margin-right: 0;
+        justify-items: flex-end;
+    }
+
+    .section
+    {
+        width: 50%;
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+ 
+    .section__picture
+    {
+       
+       width: 100%; 
+    }
+
+    .paragraph__you
+    {
+        position: absolute;
+        width: 50%;
+        display: inline-block;
+        top: 150px;
+    }
+
+    .section__initial
+    {
+        text-align: left;
+        margin-left: 20px;
+    }
+
+    .input
+    {
+        display: inline-flex;
+        margin: 0;
+        width: 50%;
+    }
+
+    .input__email
+    {
+        position: absolute;
+        margin: 20px;
+        top: 320px;
+    }
+
+    .input__botton
+    {
+        position: absolute;
+        top: 338px;
+        margin-left: 220px;
+    }
+
+    .input__enter
+    {
+        padding: 8px 10px;
+    }
+
+    .input__sudmit
+    {
+        padding: 8px 15px;
+    }
+
+    .position__wabe
+    {
+       width: 100%;
+    }
+
+    .wabe
+    {
+        width: 100%;
+        height: 110px;
+        background-image: url(./images/bg-curve-desktop.svg);
+        background-size: 100%;
+    }
+
+    .section__part2
+    {
+        width: 100%;
+        margin-top: 100px;
+        height: 670px;
+    }
+
+    .part__img
+    {
+        width: 50%;
+        margin-right: 0;
+    }
+
+    .section__img
+    {
+        margin-top: 110px;
+    }
+
+    .part__text
+    {
+        width: 50%;
+        margin-left: 0;
+        text-align: left;
+        margin-top: -365px;
+    }
+
+    .section__testimonio
+    {
+        width: 60%;
+        margin-left: 0;
+    }
+
+    .color
+    {
+        height: 0;
+    }
+
+    .acceso
+    {
+        display: flex;
+    }
+
+    .text__acceso
+    {
+        width: 50%;
+        text-align: left;
+        margin-left: 20px;
+    }
+
+    .input__acceso
+    {
+        width: 50%;
+    }
+    
+    .input__enter
+    {
+        width: 75%;
+    }
+
+    .input__sudmit--cambio
+    {
+        display: block;
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    .footer
+    {
+        width: 100%;
+        height: 350px;
+    }
+
+    .detalles
+    {
+        display: flex;
+        width: 90%;
+    }
+
+    .experiences
+    {
+        margin-top: 120px;
+    }
+
+    .terms
+    {
+        margin-top: 120px;
+    }
+
+    .redes
+    {
+        margin-top: 120px;
+    }
+
+    
+}
